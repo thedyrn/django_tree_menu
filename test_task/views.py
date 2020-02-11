@@ -5,7 +5,7 @@ from django.contrib import messages
 
 from test_task import vk_api
 
-vk = vk_api.VkAPI(redirect_uri='')  # https://vk.com/dev/authcode_flow_user?f=3.%20Получение%20code
+vk = vk_api.VkAPI(redirect_uri='https://stark-garden-36912.herokuapp.com/auth')
 
 
 def index(request):
