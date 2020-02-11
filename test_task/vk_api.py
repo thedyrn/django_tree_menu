@@ -4,8 +4,8 @@ import os
 AUTH_URL = 'https://oauth.vk.com/authorize'
 ACCESS_TOKEN_URL = 'https://oauth.vk.com/access_token'
 METHOD_URL = 'https://api.vk.com/method/'
-CLIENT_ID = os.environ.get('CLIENT_ID')
-CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
+CLIENT_ID = '7315979'
+CLIENT_SECRET = '8VpJSKl7SmV7eQTunnIG'
 RESPONSE_TYPE = 'code'
 API_VERSION = '5.103'
 

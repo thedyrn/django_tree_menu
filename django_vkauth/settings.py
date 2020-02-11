@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u^@e1)wd99iywvau_k_=lt)@xu1-fid=p&2%8ivzb8p@*jg$j#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['stark-garden-36912.herokuapp.com',
                  'localhost']
