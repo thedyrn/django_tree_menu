@@ -1,0 +1,16 @@
+*.py[cod]
+*$py.class
+.log
+__pycache__/
+.idea/
+Procfile.windows
+staticfiles/
+
+# Environments
+venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
