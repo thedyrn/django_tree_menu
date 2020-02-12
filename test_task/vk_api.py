@@ -23,6 +23,7 @@ class VkAPI:
                f'&display={display}&scope={scope}&response_type={RESPONSE_TYPE}' \
                f'&v={API_VERSION}{state_or_empty}'
 
+    # TODO обработка ошибок
     def get_access_token(self, code: str) -> dict:
         """Получение токена после переадрисации от ВК."""
         params = {'client_id': self.client_id, 'client_secret': CLIENT_SECRET,
