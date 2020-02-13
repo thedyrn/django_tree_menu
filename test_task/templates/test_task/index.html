@@ -39,18 +39,18 @@
     </style>
 </head>
 <body>
-{% if messages %}
-    {% for message in messages %}
-        <p class="info">{{ message }}</p>
-    {% endfor %}
-{% endif %}
-
-{% if not warnings %}
-    <div class="main">
-        <a href="{{ href }}" class="button">Войти через ВК</a>
-    </div>
-{% endif %}
+{#{% if messages %}#}
+{#    {% for message in messages %}#}
+{#        <p class="info">{{ message }}</p>#}
+{#    {% endfor %}#}
+{#{% endif %}#}
+{##}
+{#{% if not warnings %}#}
+{#    <div class="main">#}
+{#        <a href="{{ href }}" class="button">Войти через ВК</a>#}
+{#    </div>#}
+{#{% endif %}#}
 {% load draw_menu %}
-{% draw_menu 'test' %}
+{% draw_menu 'main_menu' %}
 </body>
 </html>

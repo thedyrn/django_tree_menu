@@ -4,6 +4,7 @@
 __pycache__/
 .idea/
 Procfile.windows
+migrations/
 staticfiles/
 
 # Environments
